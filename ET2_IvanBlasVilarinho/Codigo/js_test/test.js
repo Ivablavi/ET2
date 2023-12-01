@@ -1,9 +1,11 @@
 
-function test(){
+function test(entidad){
     document.getElementById('div_IU_test').style.display = 'block';
     document.getElementById('tablaresultadostest').innerHTML = '';
     pruebasunitarias.forEach(element => {
+        if(element[1]==entidad){
             probar(element);
+        }
     });
 }
 
