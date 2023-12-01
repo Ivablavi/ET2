@@ -1,0 +1,1 @@
+datosgenerales = Array('Blas Vilariño Iván', 'ET2', 50);
